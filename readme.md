@@ -31,6 +31,7 @@ Patch the `chef-server-api-10.32.2/config/router.rb` file
 3.
 Add a file `chef-server-api-10.32.2/app/controllers/reports.rb`
 ```
+require "rest-client"
 class Reports < Application
 
 provides :json

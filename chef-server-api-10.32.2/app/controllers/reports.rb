@@ -18,6 +18,8 @@
 #
 
 
+require "rest-client"
+
 class Reports < Application
 
   provides :json
