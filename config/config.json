@@ -1,0 +1,17 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": "8123"
+  },
+  "logfile": "stats.log",
+  "redis": {},
+  "sqlite": {"dbpath":"runs.db"},
+  "files_system": {
+    "path": "/users/douglasmakey/ursho"
+  },
+  "postgres": {
+    "user": "postgres",
+    "password": "mysecretpassword",
+    "db": "ursho_db"
+  }
+}

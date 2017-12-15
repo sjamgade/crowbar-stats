@@ -1,0 +1,5 @@
+2017/12/15 13:34:57 Starting HTTP Server. Listening at "0.0.0.0:8123"
+2017/12/15 13:35:32 caught sig: interrupt
+2017/12/15 13:35:32 Gracefully shutting down server...
+2017/12/15 13:35:32 Server stopped
+2017/12/15 13:35:32 Server closed!
