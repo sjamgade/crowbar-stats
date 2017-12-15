@@ -53,12 +53,13 @@ Run a binary of the go project in this repo, it start a server on port 8123
 (have a config.json, it is needed to run the server)
 
 
-./crowbar-stats --config <path-to-config.json-file>
+./crowbar-stats --config path-to-config.json-file
 
 
 # What, Where and Huhhh...
 
 
+```
 chef-client :
     begin-run: tell server about it and get ID fot this run for server
       end-run: tell server about the end and post run-times as gzipped-json to the server
@@ -72,7 +73,7 @@ Server :
               - get the ID from post request and validate it in DB
               - stored the gzipped-json in a folder (data-folder)
               - mark run completion in the DB
-
+```
 
 Name of DB and data-folder: 
     the go server has a config file where these names and paths can be defined, look config.json
